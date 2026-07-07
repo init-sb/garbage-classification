@@ -59,6 +59,12 @@ This means the model misses roughly 1 in 2 trash images. In a real-world waste s
 - Regularization: Dropout (0.5), EarlyStopping (patience=5)
 - Best validation accuracy: 85% at epoch 19
 
+## Training Notebook
+
+The full training process — data loading, preprocessing, model building, and evaluation — is documented in the notebook:
+
+📓 [`notebook/garbage_classification_training.ipynb`](notebook/garbage_classification_training.ipynb)
+
 ---
 
 ## Run Locally
